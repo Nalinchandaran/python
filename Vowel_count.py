@@ -9,4 +9,4 @@ def count_vowels(array):
     return count
 
 text = "Hello World"
-print(count_vowels(text))
+print(count_vowels(array))
