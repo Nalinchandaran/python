@@ -1,8 +1,8 @@
-def count_vowels(s):
+def count_vowels(array):
     count = 0
     vowels = "aeiouAEIOU"
 
-    for char in s:
+    for char in array:
         if char in vowels:
             count += 1
 
