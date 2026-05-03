@@ -1,0 +1,22 @@
+#star patterns
+'''n=3
+for i in range(1,n):
+    print(" " *(n-i)+"0"*(2*i-1))
+for i in range(n,0,-1):
+    print(" " *(n-i)+"0"*(2*i-1))'''
+    
+#count the digit:
+'''num=13114
+count=len(str(num))
+print(count)'''
+
+#amstrong no:
+num=int("input")
+digits=len(num)
+total=0
+for digit in num:
+    total += int(digit) ** digits
+if total == int(num):
+    print("Armstrong Number")
+else:
+    print("Not Armstrong Number")
